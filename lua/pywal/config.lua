@@ -15,7 +15,7 @@ M.highlights_base = function (colors)
     SpellRare = { fg = colors.color6 },
     NormalNC = { fg = colors.foreground, bg = colors.background },
     Pmenu = { fg = colors.foreground, bg = colors.background },
-    PmenuSel = { fg = colors.background, bg = colors.color4 },
+    PmenuSel = { fg = colors.background, bg = colors.color3 },
     WildMenu = { fg = colors.color7, bg = colors.color4 },
     CursorLineNr = { fg = colors.color1 },
     Comment = { fg = colors.color1 },
@@ -224,6 +224,7 @@ M.highlights_base = function (colors)
     NvimTreeSymlink = { fg = colors.color7 },
     NvimTreeFolderIcon = { fg = colors.color2, bg = colors.background },
     NvimTreeStatusLineNC = { bg = colors.background, fg = colors.background },
+	 NvimTreeWimSeparator = { fg = colors.color8, bg = colors.background},
 
     -- LspSaga
     LspFloatWinNormal = { bg = colors.background },
@@ -251,6 +252,9 @@ M.highlights_base = function (colors)
     -- BufferLine
     BufferLineIndicatorSelected = { fg = colors.color5 },
     BufferLineFill = { bg = colors.background },
+
+	 -- Barbar'
+	 BufferTabpages = { bg = colors.color4},
   }
 end
 
